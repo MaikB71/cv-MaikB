@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:white; 
+}
+h2{
+    font-size: 30px;
+}
+.cv-div-flex{
+    display: flex;
+    
+}
+.cv-text-align-center{
+    text-align: center;
+}
+.cv-text-color-blue{
+    color: #324063;
+}
+.cv-div-header{
+    display: flex;
+    background-color: #324063;
+    padding: 0px 0px;
+    color:white;
+
+}
+.cv-div-imagen{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 30%;
+    background-color: #C8C8D6 ;
+    margin-left: 30px;
+    text-align: center;
+}
+/* Clase Imagen Circular*/
+.cv-img-circular{
+    border-radius: 50%;
+}
+.cv-div-profile{
+    text-align: center;
+    padding-top: 20px;
+    width: 70%;
+    font-size: 19px;
+}
+.cv-div-profile2{
+    text-align: center;
+    padding: 0px 80px;
+    font-size: 18px;
+}
+.cv-p-justify{
+    text-align: justify;
+}
+.cv-div-main{
+    display: flex;
+    
+}
+.cv-div-side{
+    padding-top: 0px;
+    width: 30%;
+    background-color: #C8C8D6;
+    margin-left: 30px;
+}
+.cv-div-contact-data{
+    width: 90%;
+    margin: 0 auto;
+    border-block-start: solid;
+    border-block-start-width: 2px;
+}
+.cv-div-conte{
+    width: 70%;
+}
+.cv-div-title-conte{
+    margin-left: 10px;
+    line-height: 0px;
+    padding-top: 34px;
+}
+.cv-div-experience{
+    margin-inline: 30px;
+    border: 1px;
+    border-block-start: solid;
+    border-block-start-width: 2px;
+    
+}
+.cv-div-experience > div >h3{
+    color: #324063;
+}
+.cv-div-exp-item{
+    padding: 2px 10px;
+}
+.cv-div.form >div>p{
+    display: none;
+}
+.cv-div.form > div{
+    margin-right: 10px;
+}
+.cv-section{
+    padding: 30px 150px;
+}
+.cv-div-input{
+    margin-right: 20px;
+}
+.cv-div-input>p{
+    color: #ff0000;
+    font-size: 12px;
+    display: none;
+}
+.rating {
+    padding-top: 0px;
+    position: relative;
+    height: 60px;
+    width: 250px;
+    background: linear-gradient(to right,#324063,#324063);
+    background-repeat: no-repeat;
+    background-position: 0px 20px;
+    background-size: 0px 100%;
+  }
+.rating:after {
+    padding-top: 0px;
+    position:absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(20px at center, transparent 7.5px, #C8C8D6 9px);
+    background-position: 0px 0px ;
+    background-size: 20% 100%;
+    /*border: 0px solid;*/
+}
+@keyframes fill-circle {
+  to {
+    background-size: 10% 10%;
+  }
+}
