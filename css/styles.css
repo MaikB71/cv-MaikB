@@ -74,8 +74,9 @@ h4{
     width: 95%;
     margin: 0 auto;
     border-block-start: solid;
-    border-block-start-width: 0.25vw;
+    border-block-start-width: 0.2vw;
 }
+
 .cv-div-contact-data>h3{
     width: 100%;
     margin-left: 4%;
@@ -143,7 +144,7 @@ h4{
     margin-inline: 4%;
     border: 1px;
     border-block-start: solid;
-    border-block-start-width: 0.25vw;   
+    border-block-start-width: 0.2vw;   
 }
 .cv-div-experience > div >h3{
     color: #324063;
