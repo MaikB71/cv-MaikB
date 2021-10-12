@@ -149,6 +149,9 @@ h4{
 .cv-div-experience > div >h3{
     color: #324063;
 }
+.cv-div-exp-item>h4{
+    padding-left: 2%;
+}
 .cv-div-exp-item{
     padding: 0% 0%;
 }
